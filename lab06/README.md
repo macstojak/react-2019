@@ -17,7 +17,7 @@ Przerób komponent z poprzedniego zadania w taki sposób aby po 20 kliknęciu pr
 
 ## Zadanie 4
 
-Przenieś licznik klikniec wraz z przyciskiem do nowego komponentu. W komponencie App wykorzystaj go oraz dodaj 2 przyciski Poka i Ukryj licznik.
+Przenieś licznik klikniec wraz z przyciskiem do nowego komponentu. W komponencie App wykorzystaj go oraz dodaj 2 przyciski Pokaż i Ukryj licznik.
 Pamiętaj aby podczas ukrywania licznika wyczyścić tytuł strony.
 
 ## Zadanie 5
