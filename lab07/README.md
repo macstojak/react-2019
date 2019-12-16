@@ -50,6 +50,10 @@ Zaobserwuj co sie stanie gdy przekazemy w parametrze nieistnejacy ID.
 
 Wykorzystaj Redirect i przekieruj uzytkownika do listy filmow.
 
+## Praca domowa
+
+Do poprzedniego zadania dodaj obsluge adresow ktore nie sa uzywane przez aplikacje. Przygotuj prosta strone 404 i na nia przekieruj caly ten ruch. 
+
 ## Zadanie 8
 
 Wykorzystujac React Refs spraw aby po wejsciu w \contact kursor byl ustawiony w polu input (focus), a po wcisnieciu przycisku SEND pojawił sie alert "Dziękujemy, skontaktujemy się z Toba pod adresem: podany@adres.email"
