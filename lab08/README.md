@@ -1,9 +1,11 @@
 # Lab 08
 
 ## Zadanie 1
-W komponencie HomePage zmien kolor tekstu Hello World wykorzystujac wybrane metody: Inline CSS, ClassName, CSS Modules, Styled Component. Zaobserwuj roznice miedzy nimi
+
+Utwórz komponent prezentujący kolorowy prostokąt, ktory w środku bedzie zawierał biały napis Hello World. Do ostylowania wykorzystaj wybrane metody: Inline CSS, ClassName, CSS Modules, Styled Component. Zaobserwuj roznice miedzy nimi
 
 ## Projekt
+
 Klient dostarczył pocięty szablon strony w folderze `templates` oraz baze danych produktów w pliku `products.json`. Pierwsza wersja sklepu będzie zawierała jedynie catalog produktów bez możliwości kupna. Twoim zadaniem jest dostarczenie gotowej strony z wykorzystaniem biblioteki React.
 
 Do stworzenia projektu wykorzystaj `create-react-app`.
