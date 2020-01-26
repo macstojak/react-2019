@@ -8,7 +8,10 @@ const Filters = ({
   onChange
 }) => {
   const handleChange = data => {
-    onChange({ text, manufacture, ...data });
+    onChange({
+      text: data.text || text,
+      manufacture: data.manufacture || manufacture
+    });
   };
 
   const onClear = () => {
