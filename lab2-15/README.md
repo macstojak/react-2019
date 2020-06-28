@@ -1,4 +1,4 @@
-# Lab 2 14
+# Lab 2 15
 
 ## Zadanie 1
 Wykorzystujac reduxa zrealizuj prosty licznik. Aplikacja powinna zawierać dwa przyciski: increment i decrement oraz aktualną wartość licznika.
