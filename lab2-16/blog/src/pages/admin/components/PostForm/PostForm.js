@@ -18,7 +18,7 @@ const validate = (values) => {
   return errors;
 };
 
-const PostForm = ({ onSubmit }) => {
+const PostForm = ({ categories, onSubmit }) => {
   const { getFieldProps, handleSubmit, errors, touched } = useFormik({
     initialValues: {
       title: "",
@@ -42,8 +42,12 @@ const PostForm = ({ onSubmit }) => {
       </p>
       <p>
         <select {...getFieldProps("category")}>
-          <option>----</option>
-          <option>CCCC</option>
+          <option value="">----</option>
+          {categories.map(({ id, name }) => (
+            <option key={id} value={id}>
+              {name}
+            </option>
+          ))}
         </select>
         {errors.category && touched.category && (
           <span className="error">{errors.category}</span>
