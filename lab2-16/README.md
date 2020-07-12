@@ -20,3 +20,14 @@ Każdy post powinien zawierać tytuł, kategorie do wyboru z listy oraz treść 
 Dane trzymaj w Redux Store. 
 
 Do generowania identyfikatorow uzyj `node-uuid` https://github.com/kelektiv/node-uuid
+
+## Zadanie 4
+Stworz komponent licznika, który można zwiększać i zmniejszać dedykowanymi do tego przyciskami. Do zarządzania stanem wykorzystaj `useReducer`
+
+## Zadanie 5
+Stworzony komponent modalu. Kliknięcie w przycisk powinno wyświetlić popup jednocześnie zaciemniając całą stronę.
+
+Zapoznaj się z React Portal https://reactjs.org/docs/portals.html
+
+## Zadanie 6
+Wykonaj poprzednie zadania w taki sposób aby to redux zarządzał wyświetlanymi modalami
